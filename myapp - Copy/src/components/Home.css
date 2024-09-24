@@ -1,0 +1,97 @@
+.allcards{
+    margin-left:300px;
+    margin-top: 100px;
+}
+
+.card-row1{
+    display: flex;
+    padding: 20px;
+
+}
+.card-row2{
+    display: flex;
+    padding: 20px;
+}
+.card {
+ 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust width as needed */
+    background-color:greenyellow;
+    padding: 20px;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .card-content {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-description {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  .card-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .product{
+    margin-left:320px;
+  }
+  .belowcard{
+    padding: 20px;
+    margin:15px 0px;
+    width: 80%;
+    border-radius: 10px;
+  }
+  .card .hd{
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .cardFilters .col h4{
+    font-size:16px ;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  .table .thead-dark th{
+    background-color: #1866ee;
+    border-color: blue;
+    font-size: 15px;
+  }
+  .table tbody td{
+    font-size: 13px;
+  }
+  .table tbody .actions button{
+    min-width: 25px;
+    width:25px;
+    height:25px;
+  }
+  .skirt{
+    width: 40px;
+    height:40px;
+  }
+  .tableFooter .pagination{
+    margin-left: auto;
+  }
+
+
+  

@@ -1,0 +1,112 @@
+*{
+    margin:0px;
+    padding: 0px;
+  }
+header{
+        width: 100%;
+        height:70px;
+        
+        position:fixed;
+        top:0px;
+        left: 0px;
+        z-index: index 1000;
+
+      }
+header .logo{
+    text-decoration:none;
+    width:45px;
+    margin-left: 20px ;
+}
+header span{
+  color: #1a1a1a;
+  font-weight: bold;
+  font-size: 24px;
+}
+header button.rounded-circle{
+  min-width: 40px !important;
+  width: 40px;
+  height:40px;
+}
+header button.rounded-circle:hover svg{color:blue}
+header button.rounded-circle svg{
+  color: #1a1a1a;
+  font-size: 20px;
+} 
+.searchbox{
+  width:400px;
+  height: 50px;
+  background-color: #f0f5ff;
+  border-radius: 6px;
+}
+.searchbox input{
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+}
+.myAcc .userImg .rounded-circle{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+  overflow: hidden;
+  width:40px;
+  height:40px;
+}
+.myPic{
+  width: 100%;
+  height:40px;
+  cursor: pointer;
+}
+.myAcc .userInfo{
+  padding-left: 10px;
+}
+.myAcc .userInfo h4{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+.myAcc .userInfo p{margin-top:0;}
+
+
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light-mode button {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode button {
+  background-color: white;
+  color: black;
+}
+
+
